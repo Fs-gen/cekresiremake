@@ -23,9 +23,6 @@ if ($jasa == "jne")
 	
 	
 	
-	
-	
-	
 	//sempurnakan
 	$start = "<div class=\"checkpoints\">";
 	$end   = "Date & time are usually";
