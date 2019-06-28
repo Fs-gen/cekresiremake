@@ -90,21 +90,30 @@ $("#iloading").hide();
 <body>
 
 
-<div class="">
+<div class="container">
 
-</div>
+
 <h1>CEK RESI</h1>
-
+<hr>
 
 <form class="search" method="POST" name="formku2" id="formku2">
 <input class="search-input form-control" type="search" name="resi" id="resi" placeholder="Nomor Resi..." value="" autofocus="" required="">
-<select name="jasa" id="jasa" class="search-select" required>
-		<option value="jne">JNE</option>
-		<option value="pos">POS</option>
-		<option value="tiki">TIKI</option>
+<br>
+<div class="row">
+	<div class="col-md-3">
 
-</select>
-<button class="search-submit" type="submit" name="cek" id="cek">Cek Resi</button>
+		<select name="jasa" id="jasa" class="search-select form-control" required>
+			<option value="jne">JNE</option>
+			<option value="pos">POS</option>
+			<option value="tiki">TIKI</option>
+			
+		</select>
+	</div>
+
+	<div class="col-md-3">
+		<button class="search-submit btn btn-primary" type="submit" name="cek" id="cek">Cek Resi</button>
+	</div>
+</div>
 </form>
 				
 
@@ -114,9 +123,13 @@ $("#iloading").hide();
 </div>
 
 
+</div>
+
+<div>
+
 <div id="ihasil"></div>
 
+</div>
 
-
-
-</body></html>
+</body>
+</html>

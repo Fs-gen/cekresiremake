@@ -24,10 +24,6 @@ if ($jasa == "jne")
 	
 	
 	
-	echo "<h1>$jasa</h1>";
-	
-	
-	
 	
 	
 	//sempurnakan
@@ -94,10 +90,6 @@ if ($jasa == "pos")
 	
 	
 	
-	
-	echo "<h1>$jasa</h1>";
-	
-	
 	//sempurnakan
 	$start = "<div class=\"checkpoints\">";
 	$end   = "Date & time are usually";
@@ -159,10 +151,6 @@ if ($jasa == "tiki")
 	$str = curl_exec($curl);
 	curl_close($curl);
 	
-	
-	
-	
-	echo "<h1>$jasa</h1>";
 	
 
 	//sempurnakan
